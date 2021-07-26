@@ -1,5 +1,7 @@
-const fun = (name) => {
-    return `Hello there, ${name}`;
-}
+import Ship from "./Modules/Ship";
+import Gameboard from "./Modules/Gameboard";
+import Player from "./Modules/Player";
 
-module.exports= fun;
+module.exports= {
+    Ship, Gameboard, Player
+};
